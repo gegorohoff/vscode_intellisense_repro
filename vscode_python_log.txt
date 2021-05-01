@@ -1,0 +1,69 @@
+User belongs to experiment group 'CollectLSRequestTiming - control'
+User belongs to experiment group 'CollectNodeLSRequestTiming - experiment'
+> conda --version
+> pyenv root
+> python3.7 ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3.6 ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python3 ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python2 ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+> conda info --json
+> conda env list
+> conda env list
+Error 2021-04-30 17:59:43: Failed to check if file needs to be fixed [EntryNotFound (FileSystemError): Unable to read file 'vscode-remote://wsl+ubuntu-20.04/home/ggorohoff/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file 'vscode-remote://wsl+ubuntu-20.04/home/ggorohoff/.config/Code/User/settings.json')
+	at _handleError (/home/ggorohoff/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/out/vs/server/remoteExtensionHostProcess.js:86:154942)
+	at async y.readText (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:9:339523)
+	at async p.doesFileNeedToBeFixed (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:59:577126)
+	at async /home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:59:576253
+	at async Promise.all (index 0)
+	at async p.getFilesToBeFixed (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:59:576199)
+	at async p.updateTestSettings (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:59:575826)] {
+  code: 'FileNotFound'
+}
+Python interpreter path: ~/anaconda3/envs/goto_def/bin/python
+Starting Jedi Python language engine.
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.prefix)"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import sys;print(sys.executable)"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py site --user-site
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py
+Error 2021-04-30 17:59:44: stderr jediProxy Error (stderr) /home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py:590: DeprecationWarning: Providing the line is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py:590: DeprecationWarning: Providing the column is now done in the functions themselves like `Script(...).complete(line, column)`
+  script = jedi.Script(
+/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py:590: DeprecationWarning: Deprecated since version 0.17.0. Use the project API instead, which means Script(project=Project(dir, sys_path=sys_path)) instead.
+  script = jedi.Script(
+
+Error 2021-04-30 17:59:44: stderr jediProxy Error (stderr) /home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py:624: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).infer instead.
+  script.goto_definitions(), request["id"]
+
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py pylint --rcfile=/home/ggorohoff/workbench/repos/_reference-repos/py-linting/.pylintrc --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text ~/workbench/repos/debug/goto_def/pkg_A/labtech/utils/log/runner.py
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py pylint --rcfile=/home/ggorohoff/workbench/repos/_reference-repos/py-linting/.pylintrc --msg-template='{line},{column},{category},{symbol}:{msg}' --reports=n --output-format=text ~/workbench/repos/debug/goto_def/pkg_A/labtech/utils/log/runner.py
+cwd: ~/workbench/repos/debug/goto_def/pkg_A
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import pylint"
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import pylint"
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import pylint"
+> ~/anaconda3/envs/goto_def/bin/python ~/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/pyvsc-run-isolated.py -c "import pylint"
+
+Linter 'pylint' is not installed. Please install it or select another linter".
+Error: Module 'pylint' not installed.
+Error 2021-04-30 17:59:44: NotInstalledErrorHandler.promptToInstall [Error: Unknown product 3
+	at D.createInstaller (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:9:485477)
+	at D.promptToInstall (/home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/out/client/extension.js:9:484598)]
+Error 2021-04-30 17:59:45: stderr jediProxy Error (stderr) /home/ggorohoff/.vscode-server/extensions/ms-python.python-2021.4.765268190/pythonFiles/completion.py:601: DeprecationWarning: Deprecated since version 0.16.0. Use Script(...).goto instead.
+  script.goto_assignments(follow_imports=True), request["id"]
