@@ -4,4 +4,4 @@
 from labtech.utils.api.helper import Helper
 
 Helper().main()
-APIHelper().login_api()
+# APIHelper().login_api()
